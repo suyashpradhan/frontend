@@ -1,0 +1,87 @@
+{
+    "projects": [
+      {
+        "id": "proj1",
+        "name": "Project Alpha",
+        "description": "First major project",
+        "tasks": [
+          {
+            "id": "task1",
+            "title": "Design UI",
+            "status": "In Progress",
+            "subtasks": [
+              {
+                "id": "subtask1",
+                "title": "Create Wireframes",
+                "status": "Completed"
+              },
+              {
+                "id": "subtask2",
+                "title": "Develop Mockups",
+                "status": "In Progress"
+              }
+            ]
+          },
+          {
+            "id": "task2",
+            "title": "Develop Backend",
+            "status": "Not Started",
+            "subtasks": [
+              {
+                "id": "subtask1",
+                "title": "Set up Database",
+                "status": "Not Started"
+              },
+              {
+                "id": "subtask2",
+                "title": "Create API Endpoints",
+                "status": "Not Started"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "proj2",
+        "name": "Project Beta",
+        "description": "Second major project",
+        "tasks": [
+          {
+            "id": "task1",
+            "title": "Market Research",
+            "status": "Completed",
+            "subtasks": [
+              {
+                "id": "subtask1",
+                "title": "Identify Target Audience",
+                "status": "Completed"
+              },
+              {
+                "id": "subtask2",
+                "title": "Analyze Competitors",
+                "status": "Completed"
+              }
+            ]
+          },
+          {
+            "id": "task2",
+            "title": "Product Development",
+            "status": "In Progress",
+            "subtasks": [
+              {
+                "id": "subtask1",
+                "title": "Prototype Creation",
+                "status": "In Progress"
+              },
+              {
+                "id": "subtask2",
+                "title": "Initial Testing",
+                "status": "Not Started"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

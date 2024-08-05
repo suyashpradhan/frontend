@@ -1,4 +1,7 @@
 import { useState } from "react";
+import data from "./data.json";
+
+console.log(data);
 
 function App() {
   const [count, setCount] = useState(0);
